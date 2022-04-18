@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".ViewData">
+
+    <TextView
+        android:id="@+id/idshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="ID: "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/iddata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="ID "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pwshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:text="Password: "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pwdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Password "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pin1show"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Pin 1: "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pin1data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Pin 1 "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pin2show"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Pin 2: "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pin2data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Pin 2 "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/emailshow"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Email: "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/emaildata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Email "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pwemailshow"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Email Password: "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pwemaildata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Email Password "
+        android:textColor="@color/black_500"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

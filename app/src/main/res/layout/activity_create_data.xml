@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".CreateData">
+
+
+
+
+    <TextView
+        android:id="@+id/idname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_500"
+        android:text="ID: " />
+
+    <EditText
+        android:id="@+id/iddata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/pwname"
+        android:textColor="@color/black_500"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/iddata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password: " />
+
+    <EditText
+        android:id="@+id/pwdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pwname"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/pin1name"
+        android:textColor="@color/black_500"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/pwdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pin 1: " />
+
+    <EditText
+        android:id="@+id/pin1data"
+        android:layout_below="@id/pin1name"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/pin2name"
+        android:textColor="@color/black_500"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/pin1data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pin 2: " />
+
+    <EditText
+        android:id="@+id/pin2data"
+        android:layout_below="@id/pin2name"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/emailname"
+        android:textColor="@color/black_500"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/pin2data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: " />
+
+    <EditText
+        android:id="@+id/emaildata"
+        android:layout_below="@id/emailname"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textLongMessage"/>
+
+    <TextView
+        android:id="@+id/pwemailname"
+        android:textColor="@color/black_500"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/emaildata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Password: " />
+
+    <EditText
+        android:id="@+id/pwemaildata"
+        android:layout_below="@id/pwemailname"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pwemaildata"
+        android:layout_marginTop="26dp"
+        android:text="Save" />
+
+
+
+
+
+</RelativeLayout>
